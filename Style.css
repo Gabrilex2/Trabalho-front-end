@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: #424147;
+
+}
+.top-header{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+.top-header .logotipo img{
+    max-width: 240px;
+}
+.bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.bottom-header nav ul li a{
+    color:#fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    transition: .2s;
+
+}
+.bottom-header nav ul li a:hover{
+    background-color: #8f675b;
+    color: #424147;
+    box-shadow: inset 0 0 8px #00000093;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bootstrap-icons svg{
+    width: 30px;
+    height: 30px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.muu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(48, 43, 43);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+}
+fieldset{
+    border: 3px solid rgb(5, 10, 15);
+}
+legend{
+    border: 1px solid rgb(5, 10, 15);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(5, 10, 15);
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(80, 81, 82), rgb(80, 81, 82));
+}
